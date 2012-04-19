@@ -1,0 +1,24 @@
+﻿/**
+ * AnVy Fashion - reset.css
+ * @author: LongNN <longnn@cyworld.vn>
+ * createDate: 2012.04.19
+**/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;outline-style:none;outline-width:0;outline-color:-moz-use-text-color;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+body{font-family:arial; font-size:12px; color:#3a3a3a;}
+input, select{font-family:arial;font-size:12px;color:#3a3a3a;}
+ul,li{list-style:none;}
+a img {border:none;}
+a{text-decoration:none;color:#757474;}
+a:hover{text-decoration:underline;}
+.invisible{display:none;}
+.clrb{clear:both;}		
+.real_width{width:980px; margin:auto;}
+input.op_btn{padding:0px; margin:1px 0px 0px -1px; border:none; background:none;_width:14px; _height:14px;vertical-align:top;}	
+input.chk_btn{padding:0px; margin:0px; border:none; width:13px; height:13px; background:none;vertical-align:bottom;}
+textarea{resize:none;}

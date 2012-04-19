@@ -1,0 +1,21 @@
+﻿/**
+ * AnVy Fashion - reset.css
+ * @author: LongNN <longnn@cyworld.vn>
+ * createDate: 2012.04.19
+**/
+
+/********** HOME **********/
+.home_wrapper{width:980px;margin:55px auto;}
+.home_wrapper .header{}
+.home_wrapper .header img{display:block;}
+.home_wrapper .main{width:716px;overflow:hidden;}
+.home_wrapper .main ul{width:800px;}
+.home_wrapper .main ul li{float:left;}
+.home_wrapper .main ul li img{display:block;border:4px solid #fff;margin-right:20px;}
+.home_wrapper .news{width:716px;height:160px;background:url('../images/bgr/bgr_trans.png') repeat 0 0 transparent;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;}
+.home_wrapper .menu{background:url('../images/bgr/bgr_trans.png') repeat 0 0 transparent;font-size:12px;color:#75882e;}
+.home_wrapper .menu a{color:#75882e;}
+/********** E: HOME **********/
+
+
+
