@@ -174,7 +174,7 @@ body{background-color:#e6e6e6;}
 .news_page .content_news .news_main{overflow:hidden;}
 .news_page .content_news .news_main .news_hot{float:left;width:345px;overflow:hidden;position:relative;}
 .news_page .content_news .news_main .news_hot img{display:block;}
-.news_page .content_news .news_main .news_hot .intro_box{background:url('../images/bgr/bgr_trans_black.png') repeat 0 0 transparent;position:absolute;bottom:0;padding:12px 14px;;}
+.news_page .content_news .news_main .news_hot .intro_box{background:url('../images/bgr/bgr_trans_black.png') repeat 0 0 transparent;position:absolute;bottom:0;padding:12px 14px;width:317px;}
 .news_page .content_news .news_main .news_hot .intro_box p{font-size:11px;color:#a6a6a6;font-weight:bold;}
 .news_page .content_news .news_main .news_hot .intro_box .title a{color:#dcdcdc;font-size:26px;margin-bottom:6px;display:inline-block;}
 .news_page .content_news .news_main .news_list{float:right;width:544px;}
@@ -209,7 +209,7 @@ body{background-color:#e6e6e6;}
 .contact .contact_main .contact_form ul li.btn{margin-bottom:21px;}
 .contact .contact_main .contact_form ul li label{font-size:11px;font-weight:bold;color:#314956;padding-bottom:2px;display:inline-block;}
 .contact .contact_main .contact_form ul li .txt{border:1px solid #ddd;width:304px;height:21px;margin:0;padding:0;}
-.contact .contact_main .contact_form ul li .tarea{border:1px solid #ddd;width:304px;height:103px;margin:0;padding:0;overflow-x:hidden;overflow-y:auto;}
+.contact .contact_main .contact_form ul li .tarea{border:1px solid #ddd;width:294px;height:93px;margin:0;padding:10px;overflow-x:hidden;overflow-y:auto;}
 .contact .contact_main .contact_form ul li .btn_send{border:medium none;width:56px;height:23px;background:url('../images/button/button.gif') no-repeat 0 0 transparent;cursor:pointer;margin-right:4px;}
 .contact .contact_main .contact_form ul li .btn_refresh{border:medium none;width:74px;height:23px;background:url('../images/button/button.gif') no-repeat 0 -28px transparent;cursor:pointer;}
 /********** E: CONTACT **********/
