@@ -1,5 +1,5 @@
 ﻿/**
- * AnVy Fashion - reset.css
+ * AnVy Fashion - frame.css
  * @author: LongNN <longnn@cyworld.vn>
  * createDate: 2012.04.19
 **/
@@ -7,7 +7,7 @@
 /********** COMMON **********/
 body{background-color:#e6e6e6;}
 
-.navibar{height:40px;overflow:hidden;position:absolute;top:0;left:0;}
+.navibar{height:40px;overflow:hidden;position:absolute;top:0;left:0;width:980px;}
 .navibar li{float:left;}
 .navibar li.home a{display:inline-block;width:171px;height:40px;background:url('../images/button/button.png') no-repeat 0 0 transparent;}
 .navibar li.home a:hover{background:url('../images/button/button.png') no-repeat 0 -45px transparent;text-decoration:none;}
@@ -104,7 +104,7 @@ body{background-color:#e6e6e6;}
 /********** HOME 02 **********/
 .wrapper .content_home{background:url('../images/bgr/bgr_main_home2.png') no-repeat center top transparent;padding:3px;height:532px;overflow:hidden;margin-bottom:7px;}
 .wrapper .content_home ul{float:right;}
-.wrapper .content_home ul li{margin-bottom:1px;}
+.wrapper .content_home ul li{margin-bottom:1px;line-height:0;}
 .wrapper .content_home ul li img{display:block;}
 .wrapper .adv_home{background-color:#141c1b;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;height:103px;overflow:hidden;}
 .wrapper .adv_home .news_box{width:469px;float:left;padding-left:9px;margin-right:18px;}
@@ -125,9 +125,27 @@ body{background-color:#e6e6e6;}
 
 /********** DRESS **********/
 .content_dress{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_dress.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
-.content_dress .photo{width:750px;;margin-top:123px;}
+.content_dress .photo{width:750px;padding-top:123px;}
 .content_dress .photo .paging{margin-left:297px;}
 /********** E: DRESS **********/
+
+/********** AO DA **********/
+.content_aoda{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_aoda.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
+.content_aoda .photo{width:750px;padding-top:123px;}
+.content_aoda .photo .paging{margin-left:297px;}
+/********** E: AO DA **********/
+
+/********** CONG SO **********/
+.content_congso{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_congso.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
+.content_congso .photo{width:750px;padding-top:123px;}
+.content_congso .photo .paging{margin-left:297px;}
+/********** E: CONG SO **********/
+
+/********** AO TRAN BONG **********/
+.content_tranbong{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_tranbong.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
+.content_tranbong .photo{width:750px;padding-top:123px;}
+.content_tranbong .photo .paging{margin-left:297px;}
+/********** E: AO TRAN BONG **********/
 
 /********** DRESS DETAIL **********/
 .dress_detail{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_dress_detail.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
@@ -138,7 +156,7 @@ body{background-color:#e6e6e6;}
 .dress_detail .detail_main .photo .right{float:right;}
 .dress_detail .detail_main .photo .right ul li{margin-bottom:26px;}
 .dress_detail .detail_main .photo .right ul li img{display:block;}
-.dress_detail .detail_main .info{float:right;}
+.dress_detail .detail_main .info{float:right;width:444px;overflow:hidden;}
 .dress_detail .detail_main .info .btn_mua{display:inline-block;width:214px;height:66px;background:url('../images/button/btn_mua.png') no-repeat 0 0 transparent;float:right;margin-bottom:86px;}
 .dress_detail .detail_main .info .btn_mua:hover{text-decoration:none;}
 .dress_detail .detail_main .info .info_main{width:400px;height:224px;overflow:hidden;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;background:url('../images/bgr/bgr_trans_intro.png') repeat 0 0 transparent;font-weight:bold;padding:27px 22px;}
@@ -195,21 +213,3 @@ body{background-color:#e6e6e6;}
 .contact .contact_main .contact_form ul li .btn_send{border:medium none;width:56px;height:23px;background:url('../images/button/button.gif') no-repeat 0 0 transparent;cursor:pointer;margin-right:4px;}
 .contact .contact_main .contact_form ul li .btn_refresh{border:medium none;width:74px;height:23px;background:url('../images/button/button.gif') no-repeat 0 -28px transparent;cursor:pointer;}
 /********** E: CONTACT **********/
-
-/********** AO DA **********/
-.content_aoda{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_aoda.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
-.content_aoda .photo{width:750px;;margin-top:123px;}
-.content_aoda .photo .paging{margin-left:297px;}
-/********** E: AO DA **********/
-
-/********** CONG SO **********/
-.content_congso{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_congso.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
-.content_congso .photo{width:750px;;margin-top:123px;}
-.content_congso .photo .paging{margin-left:297px;}
-/********** E: CONG SO **********/
-
-/********** AO TRAN BONG **********/
-.content_tranbong{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_tranbong.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
-.content_tranbong .photo{width:750px;;margin-top:123px;}
-.content_tranbong .photo .paging{margin-left:297px;}
-/********** E: AO TRAN BONG **********/
