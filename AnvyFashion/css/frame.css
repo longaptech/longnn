@@ -213,20 +213,23 @@ body{background-color:#e6e6e6;}
 /********** E: NEWS **********/
 
 /********** CONTACT **********/
-.contact{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_dress_detail.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
-.contact .contact_main{padding:34px 26px 0px 25px;}
-.contact .contact_main .address{float:left;}
-.contact .contact_main .address ul li.tier1{margin-bottom:13px;}
-.contact .contact_main .address ul li.tier1 img{display:block;}
-.contact .contact_main .address ul li.tier2{font-weight:bold;color:#314956;margin-bottom:5px;}
-.contact .contact_main .address ul li.tier3{font-size:18px;color:#ff8115;text-transform:uppercase;font-weight:bold;margin-bottom:24px;}
-.contact .contact_main .address ul li.tier4 img{display:block;}
-.contact .contact_main .contact_form{float:right;background:url('../images/bgr/bgr_contact_form.png') no-repeat 0 0 transparent;width:366px;height:385px;overflow:hidden;padding:45px 0px 0px 78px;}
-.contact .contact_main .contact_form ul li{margin-bottom:10px;}
-.contact .contact_main .contact_form ul li.btn{margin-bottom:21px;}
-.contact .contact_main .contact_form ul li label{font-size:11px;font-weight:bold;color:#314956;padding-bottom:2px;display:inline-block;}
-.contact .contact_main .contact_form ul li .txt{border:1px solid #ddd;width:294px;height:21px;margin:0;padding:0px 0px 0px 10px;}
-.contact .contact_main .contact_form ul li .tarea{border:1px solid #ddd;width:294px;height:93px;margin:0;padding:10px;overflow-x:hidden;overflow-y:auto;}
-.contact .contact_main .contact_form ul li .btn_send{border:medium none;width:56px;height:23px;background:url('../images/button/button.gif') no-repeat 0 0 transparent;cursor:pointer;margin-right:4px;}
-.contact .contact_main .contact_form ul li .btn_refresh{border:medium none;width:74px;height:23px;background:url('../images/button/button.gif') no-repeat 0 -28px transparent;cursor:pointer;}
+.contact_top{width:980px;background:url('../images/bgr/bgr_dress_detail_top.png') no-repeat center top transparent;padding-top:8px;margin-bottom:7px;position:relative;}
+.contact_top .contact_bot{width:980px;background:url('../images/bgr/bgr_dress_detail_bot.png') no-repeat center bottom transparent;padding-bottom:8px;}
+.contact_top .contact_bot .contact_ct{width:980px;background:url('../images/bgr/bgr_dress_detail_main.png') repeat-y center top transparent;}
+.contact_top .contact_bot .contact_ct .contact{background:url('../images/bgr/bgr_dress_detail_ct.png') no-repeat center bottom transparent;padding:40px 3px 30px 3px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main{padding:34px 26px 0px 25px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .address{float:left;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .address ul li.tier1{margin-bottom:13px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .address ul li.tier1 img{display:block;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .address ul li.tier2{font-weight:bold;color:#314956;margin-bottom:5px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .address ul li.tier3{font-size:18px;color:#ff8115;text-transform:uppercase;font-weight:bold;margin-bottom:24px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .address ul li.tier4 img{display:block;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .contact_form{float:right;background:url('../images/bgr/bgr_contact_form.png') no-repeat 0 0 transparent;width:366px;height:385px;overflow:hidden;padding:45px 0px 0px 78px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .contact_form ul li{margin-bottom:10px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .contact_form ul li.btn{margin-bottom:21px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .contact_form ul li label{font-size:11px;font-weight:bold;color:#314956;padding-bottom:2px;display:inline-block;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .contact_form ul li .txt{border:1px solid #ddd;width:294px;height:21px;margin:0;padding:0px 0px 0px 10px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .contact_form ul li .tarea{border:1px solid #ddd;width:294px;height:93px;margin:0;padding:10px;overflow-x:hidden;overflow-y:auto;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .contact_form ul li .btn_send{border:medium none;width:56px;height:23px;background:url('../images/button/button.gif') no-repeat 0 0 transparent;cursor:pointer;margin-right:4px;}
+.contact_top .contact_bot .contact_ct .contact .contact_main .contact_form ul li .btn_refresh{border:medium none;width:74px;height:23px;background:url('../images/button/button.gif') no-repeat 0 -28px transparent;cursor:pointer;}
 /********** E: CONTACT **********/
