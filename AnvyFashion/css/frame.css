@@ -169,7 +169,7 @@ body{background-color:#e6e6e6;}
 .dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .left{float:left;}
 .dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .left img{display:block;}
 .dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .right{float:right;}
-.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .right ul li{margin-bottom:26px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .right ul li{margin-bottom:26px;line-height:0;}
 .dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .right ul li img{display:block;}
 .dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info{float:right;width:444px;overflow:hidden;}
 .dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info .btn_mua{display:inline-block;width:214px;height:66px;background:url('../images/button/btn_mua.png') no-repeat 0 0 transparent;float:right;margin-bottom:86px;}
