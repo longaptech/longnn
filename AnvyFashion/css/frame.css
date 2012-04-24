@@ -160,22 +160,25 @@ body{background-color:#e6e6e6;}
 /********** E: AO TRAN BONG **********/
 
 /********** DRESS DETAIL **********/
-.dress_detail{height:498px;overflow:hidden;background:url('../images/bgr/bgr_main_dress_detail.png') no-repeat center top transparent;margin-bottom:7px;position:relative;padding:40px 3px 3px 3px;}
-.dress_detail .detail_main{padding:34px 27px 0px 24px;}
-.dress_detail .detail_main .photo{width:441px;height:430px;overflow:hidden;float:left;}
-.dress_detail .detail_main .photo .left{float:left;}
-.dress_detail .detail_main .photo .left img{display:block;}
-.dress_detail .detail_main .photo .right{float:right;}
-.dress_detail .detail_main .photo .right ul li{margin-bottom:26px;}
-.dress_detail .detail_main .photo .right ul li img{display:block;}
-.dress_detail .detail_main .info{float:right;width:444px;overflow:hidden;}
-.dress_detail .detail_main .info .btn_mua{display:inline-block;width:214px;height:66px;background:url('../images/button/btn_mua.png') no-repeat 0 0 transparent;float:right;margin-bottom:86px;}
-.dress_detail .detail_main .info .btn_mua:hover{text-decoration:none;}
-.dress_detail .detail_main .info .info_main{width:400px;height:224px;overflow:hidden;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;background:url('../images/bgr/bgr_trans_intro.png') repeat 0 0 transparent;font-weight:bold;padding:27px 22px;}
-.dress_detail .detail_main .info .info_main table tr td{font-weight:bold;padding-bottom:3px;vertical-align:top;}
-.dress_detail .detail_main .info .info_main table tr td.col1{width:127px;}
-.dress_detail .detail_main .info .info_main table tr td.col2 span{color:#ff1531;padding-left:10px;}
-.dress_detail .detail_main .info .info_main table tr td.col2 a{color:#ff8112;}
+.dress_detail_top{width:980px;background:url('../images/bgr/bgr_dress_detail_top.png') no-repeat center top transparent;padding-top:8px;margin-bottom:7px;position:relative;}
+.dress_detail_top .dress_detail_bot{width:980px;background:url('../images/bgr/bgr_dress_detail_bot.png') no-repeat center bottom transparent;padding-bottom:8px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main{width:980px;background:url('../images/bgr/bgr_dress_detail_main.png') repeat-y center top transparent;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail{background:url('../images/bgr/bgr_dress_detail_ct.png') no-repeat center bottom transparent;padding:40px 3px 30px 3px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main{padding:34px 27px 0px 24px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo{width:441px;height:430px;overflow:hidden;float:left;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .left{float:left;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .left img{display:block;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .right{float:right;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .right ul li{margin-bottom:26px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .photo .right ul li img{display:block;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info{float:right;width:444px;overflow:hidden;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info .btn_mua{display:inline-block;width:214px;height:66px;background:url('../images/button/btn_mua.png') no-repeat 0 0 transparent;float:right;margin-bottom:86px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info .btn_mua:hover{text-decoration:none;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info .info_main{width:400px;min-height:224px;height:auto !important;height:224px;float:right;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;background:url('../images/bgr/bgr_trans_intro.png') repeat 0 0 transparent;font-weight:bold;padding:27px 22px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info .info_main table tr td{font-weight:bold;padding-bottom:3px;vertical-align:top;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info .info_main table tr td.col1{width:127px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info .info_main table tr td.col2 span{color:#ff1531;padding-left:10px;}
+.dress_detail_top .dress_detail_bot .dress_detail_main .dress_detail .detail_main .info .info_main table tr td.col2 a{color:#ff8112;}
 /********** E: DRESS DETAIL **********/
 
 /********** NEWS **********/
@@ -222,7 +225,7 @@ body{background-color:#e6e6e6;}
 .contact .contact_main .contact_form ul li{margin-bottom:10px;}
 .contact .contact_main .contact_form ul li.btn{margin-bottom:21px;}
 .contact .contact_main .contact_form ul li label{font-size:11px;font-weight:bold;color:#314956;padding-bottom:2px;display:inline-block;}
-.contact .contact_main .contact_form ul li .txt{border:1px solid #ddd;width:304px;height:21px;margin:0;padding:0;}
+.contact .contact_main .contact_form ul li .txt{border:1px solid #ddd;width:294px;height:21px;margin:0;padding:0px 0px 0px 10px;}
 .contact .contact_main .contact_form ul li .tarea{border:1px solid #ddd;width:294px;height:93px;margin:0;padding:10px;overflow-x:hidden;overflow-y:auto;}
 .contact .contact_main .contact_form ul li .btn_send{border:medium none;width:56px;height:23px;background:url('../images/button/button.gif') no-repeat 0 0 transparent;cursor:pointer;margin-right:4px;}
 .contact .contact_main .contact_form ul li .btn_refresh{border:medium none;width:74px;height:23px;background:url('../images/button/button.gif') no-repeat 0 -28px transparent;cursor:pointer;}
