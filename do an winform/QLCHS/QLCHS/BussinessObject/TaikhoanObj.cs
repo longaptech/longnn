@@ -6,12 +6,20 @@ namespace QLCHS.BussinessObject
 {
     class TaikhoanObj
     {
-        private string m_userID;
+        private string m_username;
 
-        public string userID 
+        public string username
         {
-            get { return m_userID; }
-            set { m_userID = value; }
+            get { return m_username; }
+            set { m_username = value; }
+        }
+
+        private string m_password;
+
+        public string password
+        {
+            get { return m_password; }
+            set { m_password = value; }
         }
 
         private string m_roleID;
@@ -28,22 +36,6 @@ namespace QLCHS.BussinessObject
         {
             get { return m_employeeID; }
             set { m_employeeID = value; }
-        }
-
-        private string m_username;
-
-        public string username 
-        {
-            get { return m_username; }
-            set { m_username = value; }
-        }
-
-        private string m_password;
-
-        public string password 
-        {
-            get { return m_password; }
-            set { m_password = value; }
         }
 
         private string m_status;

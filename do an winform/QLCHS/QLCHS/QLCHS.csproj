@@ -40,6 +40,7 @@
     <Compile Include="BusinessLogic\EmployeeBUS.cs" />
     <Compile Include="BusinessLogic\RoleBUS.cs" />
     <Compile Include="BusinessLogic\TaikhoanBUS.cs" />
+    <Compile Include="BussinessObject\RoleObj.cs" />
     <Compile Include="BussinessObject\TaikhoanObj.cs" />
     <Compile Include="DataAccess\ConnectData.cs" />
     <Compile Include="frmMain.cs">
