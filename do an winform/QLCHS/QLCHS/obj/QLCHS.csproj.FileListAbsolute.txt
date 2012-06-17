@@ -12,3 +12,15 @@ C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\QLCHS\QLCHS\obj\Debug\QLCHS.frmDoimatkhau.resources
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\QLCHS\QLCHS\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\QLCHS\QLCHS\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\bin\Debug\QLCHS.exe.config
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\QLCHS.exe
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\QLCHS.pdb
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\bin\Debug\QLCHS.exe
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\bin\Debug\QLCHS.pdb
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\ResolveAssemblyReference.cache
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\QLCHS.frmDangnhap.resources
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\QLCHS.frmDoimatkhau.resources
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\QLCHS.frmMain.resources
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\QLCHS.frmTaikhoan.resources
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\QLCHS.Properties.Resources.resources
+D:\pimoom\longnn\do an winform\QLCHS\QLCHS\obj\Debug\QLCHS.csproj.GenerateResource.Cache
