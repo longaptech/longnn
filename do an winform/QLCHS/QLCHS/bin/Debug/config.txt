@@ -1,1 +1,0 @@
-﻿Data Source=long-ed6791a686\sqlexpress;Initial Catalog=QLCHBS;Integrated Security=True
